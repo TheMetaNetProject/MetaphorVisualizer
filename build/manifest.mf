@@ -1,0 +1,41 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.8.2
+Created-By: 1.6.0_37-b06-434-11M3909 (Apple Inc.)
+Update-Url: https://metaphor.icsi.berkeley.edu/metaphor/protege/metavi
+ sual/update.properties
+Bundle-ManifestVersion: 2
+Bundle-Name: Metaphor Visualizer
+Bundle-SymbolicName: edu.berkeley.icsi.metanet.metavisual;singleton:=t
+ rue
+Bundle-Category: protege
+Bundle-Description: Visualization plugin for MetaNet Metaphor project
+Bundle-Vendor: UC Berkeley International Computer Science Institute
+Bundle-DocURL: icsi.berkeley.edu
+Bundle-ClassPath: .,lib/jgraphx.jar
+Import-Package: com.mxgraph.analysis,com.mxgraph.canvas,com.mxgraph.io
+ ,com.mxgraph.io.graphml,com.mxgraph.layout,com.mxgraph.layout.hierarc
+ hical,com.mxgraph.layout.hierarchical.model,com.mxgraph.layout.hierar
+ chical.stage,com.mxgraph.layout.orthogonal,com.mxgraph.layout.orthogo
+ nal.model,com.mxgraph.model,com.mxgraph.reader,com.mxgraph.resources,
+ com.mxgraph.shape,com.mxgraph.sharing,com.mxgraph.swing,com.mxgraph.s
+ wing.handler,com.mxgraph.swing.images,com.mxgraph.swing.util,com.mxgr
+ aph.swing.view,com.mxgraph.util,com.mxgraph.util.png,com.mxgraph.util
+ .svg,com.mxgraph.view,javax.swing,javax.swing.border,javax.swing.even
+ t,javax.swing.plaf,javax.swing.table,javax.swing.text,javax.swing.tex
+ t.html,javax.swing.tree,javax.xml,javax.xml.xpath,org.w3c.dom
+Bundle-Version: 1.0.8.2012_12_07_0530
+Bundle-Activator: org.protege.editor.core.plugin.DefaultPluginActivato
+ r 
+Require-Bundle: org.protege.editor.owl,org.semanticweb.owl.owlapi,org.
+ protege.editor.core.application
+Export-Package: com.mxgraph.analysis,com.mxgraph.canvas,com.mxgraph.io
+ ,com.mxgraph.io.graphml,com.mxgraph.layout,com.mxgraph.layout.hierarc
+ hical,com.mxgraph.layout.hierarchical.model,com.mxgraph.layout.hierar
+ chical.stage,com.mxgraph.layout.orthogonal,com.mxgraph.layout.orthogo
+ nal.model,com.mxgraph.model,com.mxgraph.reader,com.mxgraph.resources,
+ com.mxgraph.shape,com.mxgraph.sharing,com.mxgraph.swing,com.mxgraph.s
+ wing.handler,com.mxgraph.swing.images,com.mxgraph.swing.util,com.mxgr
+ aph.swing.view,com.mxgraph.util,com.mxgraph.util.png,com.mxgraph.util
+ .svg,com.mxgraph.view
+Built-By: Kenneth
+
